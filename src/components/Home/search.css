@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+@media only screen and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 1) {
+
+    .main {
+        padding: 5px;
+
+    }
+
+    .Logo {
+        justify-content: center;
+
+        padding-top: 50px;
+    }
+
+
+    .main h2 {
+        right: 70px;
+        margin-top: 50px;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        position: relative;
+        font-size: 1rem;
+
+    }
+
+    .input-field {
+        width: 40%;
+
+        border-radius: 10px;
+        font-size: 20px;
+        right: 40px;
+        background: #D9DBE9;
+        height: 15px;
+        margin-top: 20px;
+        border-style: none;
+        padding: 12px 20px 12px 40px;
+        background-image: url('./Search.svg');
+        background-position: 5px 5px;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .Submit {
+        background-color: #5F2EEA;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 0.4rem;
+        width: 20%;
+        height: 30px;
+        margin-right: 10px;
+        text-align: center;
+        border-radius: 30px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .main {
+        margin-left: 200px;
+        padding: 5px;
+    }
+
+    .main h2 {
+        right: 70px;
+        margin-top: 130px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        position: relative;
+        font-size: 1rem;
+
+    }
+
+    .input-field {
+        width: 250px;
+        border-radius: 10px;
+        font-size: 20px;
+        background: #D9DBE9;
+        height: 40px;
+        margin-top: 20px;
+        border-style: none;
+        padding: 12px 20px 12px 40px;
+        margin-right: 450px;
+        background-image: url('./Search.svg');
+        background-position: 5px 5px;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .Submit {
+        background-color: #5F2EEA;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 0.7rem;
+        width: 50px;
+        height: 70px;
+        margin-left: 70px;
+        text-align: center;
+        border-radius: 30px;
+
+    }
+
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+
+    .main {
+
+        margin-left: 200px;
+
+    }
+
+    .Logo {
+
+        display: none;
+    }
+
+    .main h2 {
+        right: 350px;
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        position: relative;
+        font-size: 2rem;
+        top: 2px;
+
+    }
+
+
+    .input-field {
+        width: 57%;
+        border-radius: 10px;
+        font-size: 20px;
+        background: #D9DBE9;
+        height: 40px;
+        margin-top: 20px;
+        border-style: none;
+        padding: 12px 20px 12px 40px;
+        margin-left: 70px;
+        background-image: url('./Search.svg');
+        background-position: 5px 5px;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .Submit {
+        background-color: #5F2EEA;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 1rem;
+        width: 15%;
+        height: 70px;
+        margin-left: 30px;
+
+        text-align: center;
+        border-radius: 30px;
+
+    }
+
+}
+
+/* @media screen and (max-device-width: 2560px) {
+
+    .main {
+        left: auto;
+        padding: 5px;
+    }
+
+    .main h2 {
+        right: 350px;
+        margin-top: 130px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        position: relative;
+        font-size: 2rem;
+        top: 2px;
+
+    }
+
+
+    .input-field {
+        width: 650px;
+        border-radius: 10px;
+        font-size: 20px;
+        background: #D9DBE9;
+        height: 40px;
+        margin-top: 20px;
+        border-style: none;
+        padding: 12px 20px 12px 40px;
+        margin-left: 50px;
+        background-image: url('./Search.svg');
+        background-position: 5px 5px;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .Submit {
+        background-color: #5F2EEA;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 1rem;
+        width: 200px;
+        height: 70px;
+        margin-left: 30px;
+
+        text-align: center;
+        border-radius: 30px;
+
+    }
+
+
+
+} */
